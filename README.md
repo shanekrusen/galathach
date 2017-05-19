@@ -1,15 +1,15 @@
 # GalTransRb
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gal_trans_rb`. To experiment with that code, run `bin/console` for an interactive prompt.
+A Ruby library for translating between English and the Modern Gaulish Language.ve prompt.
 
-TODO: Delete this and the text above, and describe your gem
+TODO: Pretty much everything.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'gal_trans_rb'
+gem 'galathach'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install gal_trans_rb
+    $ gem install galathach
 
 ## Usage
 
