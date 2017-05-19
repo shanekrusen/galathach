@@ -1,5 +1,5 @@
 # Gal&aacute;thach
-[![Build Status](https://travis-ci.org/shanekrusen/galathach.svg?branch=master)](https://travis-ci.org/shanekrusen/galathach)[![Code Climate](https://codeclimate.com/github/shanekrusen/galathach/badges/gpa.svg)](https://codeclimate.com/github/shanekrusen/coligny) [![Test Coverage](https://codeclimate.com/github/shanekrusen/galathach/badges/coverage.svg)](https://codeclimate.com/github/shanekrusen/coligny/coverage)
+[![Build Status](https://travis-ci.org/shanekrusen/galathach.svg?branch=master)](https://travis-ci.org/shanekrusen/galathach) [![Code Climate](https://codeclimate.com/github/shanekrusen/galathach/badges/gpa.svg)](https://codeclimate.com/github/shanekrusen/coligny) [![Test Coverage](https://codeclimate.com/github/shanekrusen/galathach/badges/coverage.svg)](https://codeclimate.com/github/shanekrusen/coligny/coverage)
 
 
 
