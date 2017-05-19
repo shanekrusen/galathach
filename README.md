@@ -39,3 +39,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/shanek
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## Credit
+
+The main functionality for the POS Tagger in this gem is provided by Grady Ward's Moby Project. 
+
