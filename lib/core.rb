@@ -7,7 +7,7 @@ require "english_pos_tagger"
 require "sentence_splitter"
 
 module Galathach
-  def translate(input)
+  def to_gaulish(input)
     split = Galathach::split_sentence(input)
     tagged = Galathach::tag_pos(split)
   end
