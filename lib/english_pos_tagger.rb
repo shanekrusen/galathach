@@ -5,9 +5,14 @@ module Galathach
         @input_tagged = {}
         input.delete("a")
         input.each do |word|
-            if @dict[word.downcase]
-                @input_tagged[word.downcase] = @dict[word.downcase]
+            word.downcase!
+            if @dict[word]
+                @input_tagged[word] = @dict[word]
             end
+
+            # if @input_tagged[word].length > 1
+            #     if @input_tagged[word].include?("N")
+            # end
         end
         return @input_tagged
     end
@@ -20,6 +25,7 @@ module Galathach
             @def.downcase!
             @pos = @word_pair[1]
             @pos.strip!
+            @pos = @pos.scan(/./)
             @dict[@def] = @pos
         end
     end
