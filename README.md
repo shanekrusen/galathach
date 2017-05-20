@@ -3,9 +3,15 @@
 
 
 
-A Ruby library for translating between English and the Modern Gaulish Language.ve prompt.
+A Ruby library for translating between English and the Modern Gaulish Language
 
-TODO: Pretty much everything.
+TO-DO:  
+	-Finish Part of Speech tagger.
+		+ Make POS tagger more specific using contextual evidence from surrounding words.
+	-Add n-gram analysis for identifying common phrases.
+	-Add sentence parser based on POS data and n-gram analysis.
+	-Add lookup methods to translate words or phrases to Gaulish.
+	-Add methods to generate Gaulish sentence based on data from sentence parser.
 
 ## Installation
 
@@ -25,7 +31,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Not yet applicable.
 
 ## Development
 
