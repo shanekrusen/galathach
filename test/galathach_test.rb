@@ -19,6 +19,6 @@ class GalathachTest < Minitest::Test
     input = "This is a tire"
     split = Galathach::split_sentence(input)
     tagged = Galathach::tag_pos(split)
-    assert_equal tagged, {"this" => "Dv", "is" => "V", "tire" => "tiNV"}
+    assert_equal tagged, {"this" => ["D", "v"], "is" => ["V"], "tire" => ["t", "i", "N", "V"]}
   end
 end
