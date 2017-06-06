@@ -12,6 +12,7 @@ module Galathach
 
             # if @input_tagged[word].length > 1
             #     if @input_tagged[word].include?("N")
+            #     end
             # end
         end
         return @input_tagged
